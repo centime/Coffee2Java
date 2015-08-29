@@ -1,0 +1,573 @@
+{
+  "expressions": [
+    {
+      "variable": {
+        "base": {
+          "value": "lett",
+          "locationData": {
+            "first_line": 0,
+            "first_column": 0,
+            "last_line": 0,
+            "last_column": 3
+          }
+        },
+        "properties": [],
+        "locationData": {
+          "first_line": 0,
+          "first_column": 0,
+          "last_line": 0,
+          "last_column": 3
+        }
+      },
+      "value": {
+        "base": {
+          "objects": [
+            {
+              "base": {
+                "value": "'a'",
+                "locationData": {
+                  "first_line": 0,
+                  "first_column": 8,
+                  "last_line": 0,
+                  "last_column": 10
+                }
+              },
+              "properties": [],
+              "locationData": {
+                "first_line": 0,
+                "first_column": 8,
+                "last_line": 0,
+                "last_column": 10
+              }
+            },
+            {
+              "base": {
+                "value": "'b'",
+                "locationData": {
+                  "first_line": 0,
+                  "first_column": 12,
+                  "last_line": 0,
+                  "last_column": 14
+                }
+              },
+              "properties": [],
+              "locationData": {
+                "first_line": 0,
+                "first_column": 12,
+                "last_line": 0,
+                "last_column": 14
+              }
+            }
+          ],
+          "locationData": {
+            "first_line": 0,
+            "first_column": 7,
+            "last_line": 0,
+            "last_column": 15
+          }
+        },
+        "properties": [],
+        "locationData": {
+          "first_line": 0,
+          "first_column": 7,
+          "last_line": 0,
+          "last_column": 15
+        }
+      },
+      "locationData": {
+        "first_line": 0,
+        "first_column": 0,
+        "last_line": 0,
+        "last_column": 15
+      }
+    },
+    {
+      "source": {
+        "base": {
+          "from": {
+            "base": {
+              "value": "0",
+              "locationData": {
+                "first_line": 2,
+                "first_column": 10,
+                "last_line": 2,
+                "last_column": 10
+              }
+            },
+            "properties": [],
+            "locationData": {
+              "first_line": 2,
+              "first_column": 10,
+              "last_line": 2,
+              "last_column": 10
+            }
+          },
+          "to": {
+            "base": {
+              "value": "1",
+              "locationData": {
+                "first_line": 2,
+                "first_column": 13,
+                "last_line": 2,
+                "last_column": 13
+              }
+            },
+            "properties": [],
+            "locationData": {
+              "first_line": 2,
+              "first_column": 13,
+              "last_line": 2,
+              "last_column": 13
+            }
+          },
+          "exclusive": false,
+          "equals": "=",
+          "locationData": {
+            "first_line": 2,
+            "first_column": 9,
+            "last_line": 2,
+            "last_column": 14
+          }
+        },
+        "properties": [],
+        "locationData": {
+          "first_line": 2,
+          "first_column": 9,
+          "last_line": 2,
+          "last_column": 14
+        }
+      },
+      "name": {
+        "value": "i",
+        "locationData": {
+          "first_line": 2,
+          "first_column": 4,
+          "last_line": 2,
+          "last_column": 4
+        }
+      },
+      "body": {
+        "expressions": [
+          {
+            "source": {
+              "base": {
+                "from": {
+                  "base": {
+                    "value": "0",
+                    "locationData": {
+                      "first_line": 3,
+                      "first_column": 14,
+                      "last_line": 3,
+                      "last_column": 14
+                    }
+                  },
+                  "properties": [],
+                  "locationData": {
+                    "first_line": 3,
+                    "first_column": 14,
+                    "last_line": 3,
+                    "last_column": 14
+                  }
+                },
+                "to": {
+                  "base": {
+                    "value": "1",
+                    "locationData": {
+                      "first_line": 3,
+                      "first_column": 17,
+                      "last_line": 3,
+                      "last_column": 17
+                    }
+                  },
+                  "properties": [],
+                  "locationData": {
+                    "first_line": 3,
+                    "first_column": 17,
+                    "last_line": 3,
+                    "last_column": 17
+                  }
+                },
+                "exclusive": false,
+                "equals": "=",
+                "locationData": {
+                  "first_line": 3,
+                  "first_column": 13,
+                  "last_line": 3,
+                  "last_column": 18
+                }
+              },
+              "properties": [],
+              "locationData": {
+                "first_line": 3,
+                "first_column": 13,
+                "last_line": 3,
+                "last_column": 18
+              }
+            },
+            "name": {
+              "value": "j",
+              "locationData": {
+                "first_line": 3,
+                "first_column": 8,
+                "last_line": 3,
+                "last_column": 8
+              }
+            },
+            "body": {
+              "expressions": [
+                {
+                  "args": [
+                    {
+                      "operator": "+",
+                      "first": {
+                        "base": {
+                          "value": "lett",
+                          "locationData": {
+                            "first_line": 4,
+                            "first_column": 12,
+                            "last_line": 4,
+                            "last_column": 15
+                          }
+                        },
+                        "properties": [
+                          {
+                            "index": {
+                              "base": {
+                                "value": "i",
+                                "locationData": {
+                                  "first_line": 4,
+                                  "first_column": 17,
+                                  "last_line": 4,
+                                  "last_column": 17
+                                }
+                              },
+                              "properties": [],
+                              "locationData": {
+                                "first_line": 4,
+                                "first_column": 17,
+                                "last_line": 4,
+                                "last_column": 17
+                              }
+                            },
+                            "locationData": {
+                              "first_line": 4,
+                              "first_column": 17,
+                              "last_line": 4,
+                              "last_column": 17
+                            }
+                          }
+                        ],
+                        "locationData": {
+                          "first_line": 4,
+                          "first_column": 12,
+                          "last_line": 4,
+                          "last_column": 15
+                        }
+                      },
+                      "second": {
+                        "base": {
+                          "value": "lett",
+                          "locationData": {
+                            "first_line": 4,
+                            "first_column": 20,
+                            "last_line": 4,
+                            "last_column": 23
+                          }
+                        },
+                        "properties": [
+                          {
+                            "index": {
+                              "base": {
+                                "value": "j",
+                                "locationData": {
+                                  "first_line": 4,
+                                  "first_column": 25,
+                                  "last_line": 4,
+                                  "last_column": 25
+                                }
+                              },
+                              "properties": [],
+                              "locationData": {
+                                "first_line": 4,
+                                "first_column": 25,
+                                "last_line": 4,
+                                "last_column": 25
+                              }
+                            },
+                            "locationData": {
+                              "first_line": 4,
+                              "first_column": 25,
+                              "last_line": 4,
+                              "last_column": 25
+                            }
+                          }
+                        ],
+                        "locationData": {
+                          "first_line": 4,
+                          "first_column": 20,
+                          "last_line": 4,
+                          "last_column": 23
+                        }
+                      },
+                      "flip": false,
+                      "locationData": {
+                        "first_line": 4,
+                        "first_column": 12,
+                        "last_line": 4,
+                        "last_column": 26
+                      }
+                    }
+                  ],
+                  "soak": false,
+                  "isNew": false,
+                  "isSuper": false,
+                  "variable": {
+                    "base": {
+                      "value": "alert",
+                      "locationData": {
+                        "first_line": 4,
+                        "first_column": 6,
+                        "last_line": 4,
+                        "last_column": 10
+                      }
+                    },
+                    "properties": [],
+                    "locationData": {
+                      "first_line": 4,
+                      "first_column": 6,
+                      "last_line": 4,
+                      "last_column": 10
+                    }
+                  },
+                  "locationData": {
+                    "first_line": 4,
+                    "first_column": 6,
+                    "last_line": 4,
+                    "last_column": 26
+                  }
+                }
+              ],
+              "locationData": {
+                "first_line": 4,
+                "first_column": 6,
+                "last_line": 4,
+                "last_column": 26
+              }
+            },
+            "own": false,
+            "object": false,
+            "range": true,
+            "pattern": false,
+            "returns": false,
+            "locationData": {
+              "first_line": 3,
+              "first_column": 4,
+              "last_line": 5,
+              "last_column": 0
+            }
+          }
+        ],
+        "locationData": {
+          "first_line": 3,
+          "first_column": 4,
+          "last_line": 5,
+          "last_column": 0
+        }
+      },
+      "own": false,
+      "object": false,
+      "range": true,
+      "pattern": false,
+      "returns": false,
+      "locationData": {
+        "first_line": 2,
+        "first_column": 0,
+        "last_line": 5,
+        "last_column": 0
+      }
+    },
+    {
+      "source": {
+        "base": {
+          "value": "lett",
+          "locationData": {
+            "first_line": 6,
+            "first_column": 9,
+            "last_line": 6,
+            "last_column": 12
+          }
+        },
+        "properties": [],
+        "locationData": {
+          "first_line": 6,
+          "first_column": 9,
+          "last_line": 6,
+          "last_column": 12
+        }
+      },
+      "name": {
+        "value": "l",
+        "locationData": {
+          "first_line": 6,
+          "first_column": 4,
+          "last_line": 6,
+          "last_column": 4
+        }
+      },
+      "body": {
+        "expressions": [
+          {
+            "source": {
+              "base": {
+                "value": "lett",
+                "locationData": {
+                  "first_line": 7,
+                  "first_column": 13,
+                  "last_line": 7,
+                  "last_column": 16
+                }
+              },
+              "properties": [],
+              "locationData": {
+                "first_line": 7,
+                "first_column": 13,
+                "last_line": 7,
+                "last_column": 16
+              }
+            },
+            "name": {
+              "value": "m",
+              "locationData": {
+                "first_line": 7,
+                "first_column": 8,
+                "last_line": 7,
+                "last_column": 8
+              }
+            },
+            "body": {
+              "expressions": [
+                {
+                  "args": [
+                    {
+                      "operator": "+",
+                      "first": {
+                        "base": {
+                          "value": "l",
+                          "locationData": {
+                            "first_line": 8,
+                            "first_column": 14,
+                            "last_line": 8,
+                            "last_column": 14
+                          }
+                        },
+                        "properties": [],
+                        "locationData": {
+                          "first_line": 8,
+                          "first_column": 14,
+                          "last_line": 8,
+                          "last_column": 14
+                        }
+                      },
+                      "second": {
+                        "base": {
+                          "value": "m",
+                          "locationData": {
+                            "first_line": 8,
+                            "first_column": 16,
+                            "last_line": 8,
+                            "last_column": 16
+                          }
+                        },
+                        "properties": [],
+                        "locationData": {
+                          "first_line": 8,
+                          "first_column": 16,
+                          "last_line": 8,
+                          "last_column": 16
+                        }
+                      },
+                      "flip": false,
+                      "locationData": {
+                        "first_line": 8,
+                        "first_column": 14,
+                        "last_line": 8,
+                        "last_column": 16
+                      }
+                    }
+                  ],
+                  "soak": false,
+                  "isNew": false,
+                  "isSuper": false,
+                  "variable": {
+                    "base": {
+                      "value": "alert",
+                      "locationData": {
+                        "first_line": 8,
+                        "first_column": 8,
+                        "last_line": 8,
+                        "last_column": 12
+                      }
+                    },
+                    "properties": [],
+                    "locationData": {
+                      "first_line": 8,
+                      "first_column": 8,
+                      "last_line": 8,
+                      "last_column": 12
+                    }
+                  },
+                  "locationData": {
+                    "first_line": 8,
+                    "first_column": 8,
+                    "last_line": 8,
+                    "last_column": 16
+                  }
+                }
+              ],
+              "locationData": {
+                "first_line": 8,
+                "first_column": 8,
+                "last_line": 8,
+                "last_column": 16
+              }
+            },
+            "own": false,
+            "object": false,
+            "range": false,
+            "pattern": false,
+            "returns": false,
+            "locationData": {
+              "first_line": 7,
+              "first_column": 4,
+              "last_line": 17,
+              "last_column": 13
+            }
+          }
+        ],
+        "locationData": {
+          "first_line": 7,
+          "first_column": 4,
+          "last_line": 17,
+          "last_column": 13
+        }
+      },
+      "own": false,
+      "object": false,
+      "range": false,
+      "pattern": false,
+      "returns": false,
+      "locationData": {
+        "first_line": 6,
+        "first_column": 0,
+        "last_line": 17,
+        "last_column": 13
+      }
+    }
+  ],
+  "locationData": {
+    "first_line": 0,
+    "first_column": 0,
+    "last_line": 0,
+    "last_column": 15
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "type": "BlockStatement",
+  "body": [
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "i"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "j"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "l"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "lett"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "m"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "_i"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "_j"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "_k"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "_l"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "_len"
+          },
+          "init": null
+        },
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "_len1"
+          },
+          "init": null
+        }
+      ],
+      "kind": "var"
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "lett"
+        },
+        "right": {
+          "type": "ArrayExpression",
+          "elements": [
+            {
+              "type": "Literal",
+              "value": "a"
+            },
+            {
+              "type": "Literal",
+              "value": "b"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "type": "ForStatement",
+      "init": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "i"
+        },
+        "right": {
+          "type": "AssignmentExpression",
+          "operator": "=",
+          "left": {
+            "type": "Identifier",
+            "name": "_i"
+          },
+          "right": {
+            "type": "Literal",
+            "value": 0
+          }
+        }
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "operator": "<=",
+        "left": {
+          "type": "Identifier",
+          "name": "_i"
+        },
+        "right": {
+          "type": "Literal",
+          "value": 1
+        }
+      },
+      "update": {
+        "type": "AssignmentExpression",
+        "operator": "=",
+        "left": {
+          "type": "Identifier",
+          "name": "i"
+        },
+        "right": {
+          "type": "UpdateExpression",
+          "operator": "++",
+          "argument": {
+            "type": "Identifier",
+            "name": "_i"
+          },
+          "prefix": true
+        }
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ForStatement",
+            "init": {
+              "type": "AssignmentExpression",
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "name": "j"
+              },
+              "right": {
+                "type": "AssignmentExpression",
+                "operator": "=",
+                "left": {
+                  "type": "Identifier",
+                  "name": "_j"
+                },
+                "right": {
+                  "type": "Literal",
+                  "value": 0
+                }
+              }
+            },
+            "test": {
+              "type": "BinaryExpression",
+              "operator": "<=",
+              "left": {
+                "type": "Identifier",
+                "name": "_j"
+              },
+              "right": {
+                "type": "Literal",
+                "value": 1
+              }
+            },
+            "update": {
+              "type": "AssignmentExpression",
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "name": "j"
+              },
+              "right": {
+                "type": "UpdateExpression",
+                "operator": "++",
+                "argument": {
+                  "type": "Identifier",
+                  "name": "_j"
+                },
+                "prefix": true
+              }
+            },
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "alert"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "operator": "+",
+                        "left": {
+                          "type": "MemberExpression",
+                          "computed": true,
+                          "object": {
+                            "type": "Identifier",
+                            "name": "lett"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "i"
+                          }
+                        },
+                        "right": {
+                          "type": "MemberExpression",
+                          "computed": true,
+                          "object": {
+                            "type": "Identifier",
+                            "name": "lett"
+                          },
+                          "property": {
+                            "type": "Identifier",
+                            "name": "j"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ForStatement",
+      "init": {
+        "type": "SequenceExpression",
+        "expressions": [
+          {
+            "type": "AssignmentExpression",
+            "operator": "=",
+            "left": {
+              "type": "Identifier",
+              "name": "_k"
+            },
+            "right": {
+              "type": "Literal",
+              "value": 0
+            }
+          },
+          {
+            "type": "AssignmentExpression",
+            "operator": "=",
+            "left": {
+              "type": "Identifier",
+              "name": "_len"
+            },
+            "right": {
+              "type": "MemberExpression",
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "name": "lett"
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "length"
+              }
+            }
+          }
+        ]
+      },
+      "test": {
+        "type": "BinaryExpression",
+        "operator": "<",
+        "left": {
+          "type": "Identifier",
+          "name": "_k"
+        },
+        "right": {
+          "type": "Identifier",
+          "name": "_len"
+        }
+      },
+      "update": {
+        "type": "UpdateExpression",
+        "operator": "++",
+        "argument": {
+          "type": "Identifier",
+          "name": "_k"
+        },
+        "prefix": false
+      },
+      "body": {
+        "type": "BlockStatement",
+        "body": [
+          {
+            "type": "ExpressionStatement",
+            "expression": {
+              "type": "AssignmentExpression",
+              "operator": "=",
+              "left": {
+                "type": "Identifier",
+                "name": "l"
+              },
+              "right": {
+                "type": "MemberExpression",
+                "computed": true,
+                "object": {
+                  "type": "Identifier",
+                  "name": "lett"
+                },
+                "property": {
+                  "type": "Identifier",
+                  "name": "_k"
+                }
+              }
+            }
+          },
+          {
+            "type": "ForStatement",
+            "init": {
+              "type": "SequenceExpression",
+              "expressions": [
+                {
+                  "type": "AssignmentExpression",
+                  "operator": "=",
+                  "left": {
+                    "type": "Identifier",
+                    "name": "_l"
+                  },
+                  "right": {
+                    "type": "Literal",
+                    "value": 0
+                  }
+                },
+                {
+                  "type": "AssignmentExpression",
+                  "operator": "=",
+                  "left": {
+                    "type": "Identifier",
+                    "name": "_len1"
+                  },
+                  "right": {
+                    "type": "MemberExpression",
+                    "computed": false,
+                    "object": {
+                      "type": "Identifier",
+                      "name": "lett"
+                    },
+                    "property": {
+                      "type": "Identifier",
+                      "name": "length"
+                    }
+                  }
+                }
+              ]
+            },
+            "test": {
+              "type": "BinaryExpression",
+              "operator": "<",
+              "left": {
+                "type": "Identifier",
+                "name": "_l"
+              },
+              "right": {
+                "type": "Identifier",
+                "name": "_len1"
+              }
+            },
+            "update": {
+              "type": "UpdateExpression",
+              "operator": "++",
+              "argument": {
+                "type": "Identifier",
+                "name": "_l"
+              },
+              "prefix": false
+            },
+            "body": {
+              "type": "BlockStatement",
+              "body": [
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "AssignmentExpression",
+                    "operator": "=",
+                    "left": {
+                      "type": "Identifier",
+                      "name": "m"
+                    },
+                    "right": {
+                      "type": "MemberExpression",
+                      "computed": true,
+                      "object": {
+                        "type": "Identifier",
+                        "name": "lett"
+                      },
+                      "property": {
+                        "type": "Identifier",
+                        "name": "_l"
+                      }
+                    }
+                  }
+                },
+                {
+                  "type": "ExpressionStatement",
+                  "expression": {
+                    "type": "CallExpression",
+                    "callee": {
+                      "type": "Identifier",
+                      "name": "alert"
+                    },
+                    "arguments": [
+                      {
+                        "type": "BinaryExpression",
+                        "operator": "+",
+                        "left": {
+                          "type": "Identifier",
+                          "name": "l"
+                        },
+                        "right": {
+                          "type": "Identifier",
+                          "name": "m"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

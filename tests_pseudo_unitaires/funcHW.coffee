@@ -1,0 +1,2 @@
+bonjour = () -> alert('coucou')
+bonjour()
